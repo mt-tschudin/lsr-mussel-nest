@@ -96,7 +96,7 @@ body,
 
 .rst-content .note {
     background-color: #F3FAF8 !important;
-    border-left: 4px solid var(--cobas-light-green);
+    border: 1px solid #D6EEEA !important;
 }
 
 .rst-content .note .admonition-title {

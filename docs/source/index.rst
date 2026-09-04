@@ -1,4 +1,4 @@
-Welcome to Lumache's documentation!
+LSR mussel nest documentation
 ===================================
 
 **Lumache** (/lu'make/) is a Python library for cooks and food lovers
@@ -18,5 +18,35 @@ Contents
 
 .. toctree::
 
-   usage
-   api
+   Overview
+      Project
+      Objectives
+      System Architecture
+
+   Hardware
+      Nest
+      Electronics
+      Waterproof Enclosure
+      UV-C system
+      Propellers
+      Cameras
+
+   Software
+      Architecture
+      Brain Pi
+      Pod Pi
+      Camera communication
+
+   Network
+      LÉXPLORE Wi-Fi
+      Brain ↔ Pod Ethernet
+
+   Deployment
+      Installation
+      Startup procedure
+      Shutdown procedure
+      Troubleshooting
+
+   Development
+      Repository structure
+      Future work

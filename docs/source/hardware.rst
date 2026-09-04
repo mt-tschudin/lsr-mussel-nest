@@ -49,8 +49,8 @@ distribution point for the cameras, UVC lamps, and propellers.
 
 .. raw:: html
 
-   <video width="720" controls>
-     <source src="_static/images/hardware/Pod Assembly Animation v18.mp4" type="video/mp4">
+   <video controls style="width:100%; max-width:800px; display:block; margin:auto;">
+     <source src="_static/images/hardware/pod_assembly_animation_v18.mp4" type="video/mp4">
      Your browser does not support the video tag.
    </video>
 

@@ -94,25 +94,13 @@ body,
    Note boxes
    ========================= */
 
-.rst-content .admonition.note {
-    background: #F3FAF8 !important;
-    border: 1px solid #D6EEEA !important;
-    box-shadow: none !important;
-    padding: 0 !important;
-    overflow: hidden;
+.rst-content .note {
+    background-color: #F3FAF8 !important;
 }
 
-.rst-content .admonition.note .admonition-title {
-    background: var(--cobas-light-green) !important;
+.rst-content .note .admonition-title {
+    background-color: var(--cobas-light-green) !important;
     color: var(--cobas-white) !important;
-    margin: 0 !important;
-    padding: 8px 14px !important;
-}
-
-.rst-content .admonition.note > p:not(.admonition-title) {
-    margin: 0 !important;
-    padding: 16px 20px !important;
-    background: #F3FAF8 !important;
 }
 /* =========================
    Remaining Read the Docs theme elements

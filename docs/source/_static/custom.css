@@ -26,9 +26,9 @@
 }
 
 /* "DOCUMENTATION" caption */
-..wy-menu-vertical header,
+.wy-menu-vertical header,
 .wy-menu-vertical p.caption {
-    color: rgba(255, 255, 255, 0.75);
+    color: #F5F6F6 !important;
     font-weight: 600;
 }
 
@@ -72,22 +72,21 @@ body,
 
 
 /* =========================
-   Links
+   Link colors
    ========================= */
 
-a,
-a:visited {
-    color: var(--cobas-green);
+.rst-content a,
+.rst-content a:visited,
+.wy-breadcrumbs a,
+.wy-breadcrumbs a:visited {
+    color: #00A17D !important;
 }
 
-a:hover,
-a:focus {
-    color: var(--cobas-dark-green);
-}
-
-/* Breadcrumb/home icon links */
-.wy-breadcrumbs a {
-    color: var(--cobas-green);
+.rst-content a:hover,
+.rst-content a:focus,
+.wy-breadcrumbs a:hover,
+.wy-breadcrumbs a:focus {
+    color: var(--cobas-dark-green) !important;
 }
 
 
@@ -95,18 +94,87 @@ a:focus {
    Note boxes
    ========================= */
 
-/* Whole note box */
 .rst-content .note {
+    background-color: #F3FAF8 !important;
+    border-left: 4px solid var(--cobas-light-green);
+}
+
+.rst-content .note .admonition-title {
+    background-color: var(--cobas-light-green) !important;
+    color: var(--cobas-white) !important;
+}
+
+/* =========================
+   Remaining Read the Docs theme elements
+   ========================= */
+
+/* "View page source" and similar utility links */
+.rst-content .viewcode-link,
+.wy-breadcrumbs-aside a {
+    color: var(--cobas-green) !important;
+}
+
+.rst-content .viewcode-link:hover,
+.wy-breadcrumbs-aside a:hover {
+    color: var(--cobas-dark-green) !important;
+}
+
+
+/* Home icon / breadcrumb links */
+.wy-breadcrumbs li a,
+.wy-breadcrumbs li a:visited {
+    color: var(--cobas-green) !important;
+}
+
+
+/* Previous / Next buttons */
+.rst-footer-buttons .btn,
+.btn-neutral {
+    color: var(--cobas-dark-green) !important;
+}
+
+.rst-footer-buttons .btn:hover,
+.btn-neutral:hover {
+    color: var(--cobas-green) !important;
+}
+
+
+/* Search input focus */
+.wy-side-nav-search input[type="text"]:focus {
+    border-color: var(--cobas-light-green);
+}
+
+
+/* Sidebar current item - stronger override */
+.wy-menu-vertical li.current > a,
+.wy-menu-vertical li.toctree-l1.current > a {
+    background-color: var(--cobas-light-green) !important;
+    color: var(--cobas-white) !important;
+}
+
+
+/* Nested current sidebar links */
+.wy-menu-vertical li.current a {
+    border-right: none;
+}
+
+
+/* Code / inline code */
+code,
+.rst-content code,
+.rst-content tt {
+    background-color: #F1F4F3;
+    color: var(--cobas-dark-green);
+}
+
+
+/* Tables */
+.rst-content table.docutils thead {
     background-color: #EEF8F5;
 }
 
-/* Note title bar */
-.rst-content .note .admonition-title {
-    background-color: var(--cobas-light-green);
-    color: var(--cobas-white);
-}
 
-/* Optional: note icon/title */
-.rst-content .note .admonition-title::before {
-    color: var(--cobas-white);
+/* Horizontal rules / subtle separators */
+hr {
+    border-color: #DDE5E3;
 }

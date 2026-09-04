@@ -28,7 +28,7 @@ modules or test surfaces can be replaced without redesigning the complete system
    :width: 85%
    :align: center
 
-   Mechanical structure of the two actuated cages.
+   UVC and propeller stimulation configurations.
 
 
 Waterproof Enclosure
@@ -45,7 +45,7 @@ distribution point for the cameras, UVC lamps, and propellers.
    :width: 85%
    :align: center
 
-   Assembly and images of the underwater Pod.
+   Waterproof electronics pod and internal component arrangement.
 
 .. raw:: html
 
@@ -129,13 +129,13 @@ Raspberry Pi.
    Overview of cameras and attachment to cages.
 
 .. figure:: _static/images/hardware/Camera_Inside_GIF.gif
-   :width: 85%
+   :width: 70%
    :align: center
 
-   GIF 1
+   Internal camera and LED-ring arrangement.
 
 .. figure:: _static/images/hardware/Camera_Holder_GIF.gif
-   :width: 85%
+   :width: 70%
    :align: center
 
-   GIF 2
+   Camera-holder assembly and mounting principle.

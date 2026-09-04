@@ -4,6 +4,17 @@ Deployment
 This section summarizes the procedure for preparing, starting, validating,
 and shutting down the LSR Mussel Nest system at the deployment site.
 
+.. raw:: html
+
+   <video controls style="width:100%; max-width:800px; display:block; margin:auto;">
+     <source src="_static/images/deployment/Deployment_Test_1_web.mp4" type="video/mp4">
+   </video>
+
+.. raw:: html
+
+   <video controls style="width:100%; max-width:800px; display:block; margin:auto;">
+     <source src="_static/images/deployment/Deployment_Test_2.mp4" type="video/mp4">
+   </video>
 
 Before Deployment
 -----------------

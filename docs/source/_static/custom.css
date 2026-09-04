@@ -94,14 +94,20 @@ body,
    Note boxes
    ========================= */
 
-.rst-content .note {
+.rst-content .admonition.note {
     background-color: #F3FAF8 !important;
-    border: 1px solid #D6EEEA !important;
+    border: none !important;
+    border-left: none !important;
+    box-shadow: inset 0 0 0 1px #D6EEEA;
+    padding: 12px;
 }
 
-.rst-content .note .admonition-title {
+.rst-content .admonition.note .admonition-title {
     background-color: var(--cobas-light-green) !important;
     color: var(--cobas-white) !important;
+
+    margin: -12px -12px 12px -12px !important;
+    padding: 6px 12px;
 }
 
 /* =========================

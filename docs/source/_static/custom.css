@@ -1,19 +1,71 @@
-/* Main navigation sidebar */
-.wy-side-nav-search {
-    background-color: #007480;
+/* Main page background */
+body,
+.wy-nav-content-wrap {
+    background-color: #F5F6F6;
 }
 
-/* Sidebar background */
+/* Main content area */
+.wy-nav-content {
+    background-color: #FFFFFF;
+}
+
+/* Left sidebar */
 .wy-nav-side {
-    background-color: #24323a;
+    background-color: #007C6B;
 }
 
-/* Selected navigation item */
+/* Top area of sidebar / project title */
+.wy-side-nav-search {
+    background-color: #007C6B;
+}
+
+/* Sidebar links */
+.wy-menu-vertical a {
+    color: #FFFFFF;
+}
+
+/* Sidebar links on hover */
+.wy-menu-vertical a:hover {
+    background-color: #00A17D;
+    color: #FFFFFF;
+}
+
+/* Current / selected sidebar section */
 .wy-menu-vertical li.current > a {
-    background-color: #e8f3f4;
+    background-color: #3EBDAD;
+    color: #FFFFFF;
 }
 
-/* Links */
+/* Current nested items */
+.wy-menu-vertical li.current a {
+    border-right: none;
+}
+
+/* Normal links in documentation */
 a {
-    color: #007480;
+    color: #00A17D;
+}
+
+/* Links on hover */
+a:hover {
+    color: #007C6B;
+}
+
+/* Section headings */
+h1,
+h2,
+h3 {
+    color: #007C6B;
+}
+
+/* Inline code */
+code,
+.rst-content tt {
+    background-color: #F2F4F4;
+}
+
+/* Notes */
+.wy-alert.wy-alert-info,
+.rst-content .note {
+    background-color: #EFF8F6;
 }

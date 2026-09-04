@@ -1,71 +1,112 @@
-/* Main page background */
-body,
-.wy-nav-content-wrap {
-    background-color: #F5F6F6;
+/* =========================
+   CoBaS color palette
+   ========================= */
+
+:root {
+    --cobas-green: #00A17D;
+    --cobas-light-green: #3EBDAD;
+    --cobas-dark-green: #007C6B;
+    --cobas-white: #FFFFFF;
+    --cobas-light-grey: #F5F6F6;
 }
 
-/* Main content area */
-.wy-nav-content {
-    background-color: #FFFFFF;
-}
 
-/* Left sidebar */
+/* =========================
+   Sidebar
+   ========================= */
+
+/* Sidebar background */
 .wy-nav-side {
-    background-color: #007C6B;
+    background-color: var(--cobas-dark-green);
 }
 
-/* Top area of sidebar / project title */
+/* Top project area */
 .wy-side-nav-search {
-    background-color: #007C6B;
+    background-color: var(--cobas-dark-green);
+}
+
+/* "DOCUMENTATION" caption */
+.wy-menu-vertical header,
+.wy-menu-vertical p.caption {
+    color: var(--cobas-light-green);
+    font-weight: 600;
 }
 
 /* Sidebar links */
 .wy-menu-vertical a {
-    color: #FFFFFF;
+    color: var(--cobas-white);
 }
 
-/* Sidebar links on hover */
+/* Hover */
 .wy-menu-vertical a:hover {
-    background-color: #00A17D;
-    color: #FFFFFF;
+    background-color: var(--cobas-green);
+    color: var(--cobas-white);
 }
 
-/* Current / selected sidebar section */
+/* Active/current page */
 .wy-menu-vertical li.current > a {
-    background-color: #3EBDAD;
-    color: #FFFFFF;
+    background-color: var(--cobas-light-green);
+    color: var(--cobas-white);
 }
 
-/* Current nested items */
-.wy-menu-vertical li.current a {
-    border-right: none;
+
+/* =========================
+   Main page
+   ========================= */
+
+body,
+.wy-nav-content-wrap {
+    background-color: var(--cobas-light-grey);
 }
 
-/* Normal links in documentation */
-a {
-    color: #00A17D;
+.wy-nav-content {
+    background-color: var(--cobas-white);
 }
 
-/* Links on hover */
-a:hover {
-    color: #007C6B;
+/* Headings */
+.rst-content h1,
+.rst-content h2,
+.rst-content h3 {
+    color: var(--cobas-dark-green);
 }
 
-/* Section headings */
-h1,
-h2,
-h3 {
-    color: #007C6B;
+
+/* =========================
+   Links
+   ========================= */
+
+a,
+a:visited {
+    color: var(--cobas-green);
 }
 
-/* Inline code */
-code,
-.rst-content tt {
-    background-color: #F2F4F4;
+a:hover,
+a:focus {
+    color: var(--cobas-dark-green);
 }
 
-/* Notes */
-.wy-alert.wy-alert-info,
+/* Breadcrumb/home icon links */
+.wy-breadcrumbs a {
+    color: var(--cobas-green);
+}
+
+
+/* =========================
+   Note boxes
+   ========================= */
+
+/* Whole note box */
 .rst-content .note {
-    background-color: #EFF8F6;
+    background-color: #EEF8F5;
+}
+
+/* Note title bar */
+.rst-content .note .admonition-title {
+    background-color: var(--cobas-light-green);
+    color: var(--cobas-white);
+}
+
+/* Optional: note icon/title */
+.rst-content .note .admonition-title::before {
+    color: var(--cobas-white);
 }

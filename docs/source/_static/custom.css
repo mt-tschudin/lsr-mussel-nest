@@ -96,14 +96,12 @@ body,
 
 .rst-content .admonition.note {
     background: #F3FAF8 !important;
-    border: none !important;
-    border-left: 0 !important;
+    border: 1px solid #D6EEEA !important;
     box-shadow: none !important;
     padding: 0 !important;
     overflow: hidden;
 }
 
-/* Note title */
 .rst-content .admonition.note .admonition-title {
     background: var(--cobas-light-green) !important;
     color: var(--cobas-white) !important;
@@ -111,7 +109,6 @@ body,
     padding: 8px 14px !important;
 }
 
-/* Note body */
 .rst-content .admonition.note > p:not(.admonition-title) {
     margin: 0 !important;
     padding: 16px 20px !important;

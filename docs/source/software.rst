@@ -193,5 +193,3 @@ Manual and automatic control use the same Pod API:
 
 This allows the same tested hardware commands to be used interactively during
 development and automatically during long-duration experiments.
-
-========

@@ -2,12 +2,11 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = "LSR Mussel Nest"
+copyright = "2026, Laboratory of Sustainability Robotics"
+author = "Laboratory of Sustainability Robotics"
 
-release = '0.1'
-version = '0.1.0'
+release = "1.0"
 
 # -- General configuration
 

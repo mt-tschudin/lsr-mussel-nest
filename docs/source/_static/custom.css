@@ -1,0 +1,19 @@
+/* Main navigation sidebar */
+.wy-side-nav-search {
+    background-color: #007480;
+}
+
+/* Sidebar background */
+.wy-nav-side {
+    background-color: #24323a;
+}
+
+/* Selected navigation item */
+.wy-menu-vertical li.current > a {
+    background-color: #e8f3f4;
+}
+
+/* Links */
+a {
+    color: #007480;
+}

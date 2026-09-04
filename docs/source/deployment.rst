@@ -201,5 +201,3 @@ Before leaving the system unattended, confirm:
 * experiment directory created
 * image storage path verified
 * event logging active
-
-==========

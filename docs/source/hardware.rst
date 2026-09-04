@@ -84,4 +84,5 @@ repeatable image capture.
 The camera and LED ring are installed in a dedicated holder that keeps the field of
 view fixed relative to the test surface. Images are transferred over USB to the pod
 Raspberry Pi.
+
 ========

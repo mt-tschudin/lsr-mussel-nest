@@ -26,9 +26,9 @@
 }
 
 /* "DOCUMENTATION" caption */
-.wy-menu-vertical header,
+..wy-menu-vertical header,
 .wy-menu-vertical p.caption {
-    color: var(--cobas-light-green);
+    color: rgba(255, 255, 255, 0.75);
     font-weight: 600;
 }
 

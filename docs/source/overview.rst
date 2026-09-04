@@ -11,7 +11,7 @@ mooring structures, and other submerged equipment. The system is intended to
 support future experiments that combine repeatable visual monitoring with
 localized physical stimulation.
 
-.. figure:: _static/images/overview/system_overview.png
+.. figure:: _static/images/overview/system_architecture.png
    :width: 90%
    :align: center
    :alt: LSR Mussel Nest system overview

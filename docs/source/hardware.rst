@@ -47,6 +47,13 @@ distribution point for the cameras, UVC lamps, and propellers.
 
    Assembly and images of the underwater Pod.
 
+.. raw:: html
+
+   <video width="720" controls>
+     <source src="_static/images/hardware/Pod Assembly Animation v18.mp4" type="video/mp4">
+     Your browser does not support the video tag.
+   </video>
+
 Electronics
 -----------
 

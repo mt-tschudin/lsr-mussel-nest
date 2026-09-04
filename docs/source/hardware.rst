@@ -18,6 +18,18 @@ compared under similar environmental conditions.
 The mechanical structure is designed to be modular so that individual stimulation
 modules or test surfaces can be replaced without redesigning the complete system.
 
+.. figure:: _static/images/hardware/Cages.png
+   :width: 85%
+   :align: center
+
+   Mechanical structure of the four-cage experimental platform.
+
+.. figure:: _static/images/hardware/Stimuli.png
+   :width: 85%
+   :align: center
+
+   Mechanical structure of the two actuated cages.
+
 
 Waterproof Enclosure
 --------------------
@@ -29,6 +41,11 @@ internal wiring.
 Power and data enter through sealed WetLink penetrators. The pod acts as the local
 distribution point for the cameras, UVC lamps, and propellers.
 
+.. figure:: _static/images/hardware/Pod.png
+   :width: 85%
+   :align: center
+
+   Assembly and images of the underwater Pod.
 
 Electronics
 -----------
@@ -62,6 +79,11 @@ The lamps are directed toward the test surface so that stimulation remains local
 The final exposure duration and duty cycle are parameters of the biological experiment
 rather than fixed hardware settings.
 
+.. figure:: _static/images/hardware/UVC.png
+   :width: 85%
+   :align: center
+
+   UVC lamp test setup.
 
 Propellers
 ----------
@@ -84,3 +106,21 @@ repeatable image capture.
 The camera and LED ring are installed in a dedicated holder that keeps the field of
 view fixed relative to the test surface. Images are transferred over USB to the pod
 Raspberry Pi.
+
+.. figure:: _static/images/hardware/Cameras.png
+   :width: 85%
+   :align: center
+
+   Overview of cameras and attachment to cages.
+
+.. figure:: _static/images/hardware/Camera_Inside_GIF.gif
+   :width: 85%
+   :align: center
+
+   GIF 1
+
+.. figure:: _static/images/hardware/Camera_Holder_GIF.gif
+   :width: 85%
+   :align: center
+
+   GIF 2

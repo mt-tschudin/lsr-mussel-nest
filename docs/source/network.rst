@@ -150,5 +150,3 @@ If necessary, reactivate the configured Brain Ethernet profile:
 
 Avoid manually adding an IP address with ``ip addr add`` as a permanent fix.
 Persistent configuration should remain managed by NetworkManager.
-
-=======

@@ -67,6 +67,14 @@ The main electronic components are:
 The underwater Raspberry Pi controls the relays and ESCs and communicates with the
 camera modules over USB.
 
+.. figure:: _static/images/hardware/Elec_Schema_V3.1.png
+   :width: 100%
+   :align: center
+
+   Electrical schema and corresponding connections.
+
+
+
 
 UVC System
 ----------

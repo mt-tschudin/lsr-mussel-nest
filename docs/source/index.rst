@@ -19,9 +19,9 @@ Contents
    :maxdepth: 2
    :caption: Documentation
 
-   overview/index
-   hardware/index
-   software/index
-   network/index
-   deployment/index
-   development/index
+   overview
+   hardware
+   software
+   network
+   deployment
+   development
